@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="code" charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=no"/>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>디지몬 슈퍼럼블 인포</title>
+</head>
+<body>
+	<header>
+		<ul class="gnb">
+			<li>인포</li>
+		</ul>
+	</header>
+	<div id="container">
+<!-- 		<nav>
+			<ul>
+				<li><a href="">진화트리</a></li>
+				<li><a href="">맵</a></li>
+			</ul>
+		</nav> -->
+		<div class="content">
+			<section class="section-area evolution">
+				<ul class="evolution-select-area">
+					<li class="active">
+						<select>
+							<option selected hidden>유년기</option>
+						</select>
+					</li>
+					<li>
+						<select>
+							<option selected hidden>성장기</option>
+						</select>
+					</li>
+					<li>
+						<select>
+							<option selected hidden>성숙기</option>
+						</select>
+					</li>
+					<li>
+						<select>
+							<option selected hidden>완전체</option>
+						</select>
+					</li>
+					<li>
+						<select disabled>
+							<option selected hidden>궁극체</option>
+						</select>
+					</li>
+				</ul>
+			</section>
+			<section class="section-area">
+				<article class="select-info-area" style="display: none">
+					<div class="imgBox"></div>
+					<div class="textBox">
+						<h5 class="dg-name"><em>포요몬</em></h5>
+						<div class="field-group">
+							<div class="field">
+								<div>속성</div>
+								<div>데이터<em>(Da)</em></div>
+							</div>
+							<div class="field">
+								<div>필드</div>
+								<div></div>
+							</div>
+						</div>
+						<div class="field-group">
+							<div class="field">
+								<div>기타</div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</article>
+				<article >
+					<h5 class="section-title">진화루트</h5>
+					<ul class="evolution-list-area" style="display: none">
+						<li>
+							<div class="tit">유년기</div>
+							<ul>
+								<li>유라몬</li>
+							</ul>
+						</li>
+						<li>
+							<div class="tit">성장기</div>
+							<ul>
+								<li>파닥몬</li>
+								<li>피코데블몬</li>
+							</ul>
+						</li>
+						<li>
+							<div class="tit">성숙기</div>
+							<ul>
+								<li>엔젤몬</li>
+								<li>데블몬</li>
+							</ul>
+						</li>
+						<li>
+							<div class="tit">완전체</div>
+							<ul>
+								<li>홀리엔젤몬</li>
+								<li>묘티스몬</li>
+							</ul>
+						</li>
+					</ul>
+
+					<style type="text/css">
+						.evolution-list-area2 > li {
+
+						}
+						.evolution-list-area2 ul {
+							display: flex;
+							justify-content: flex-start;
+							align-items: flex-start;
+							font-size: 16px;
+							font-weight: 500;
+						}
+						.evolution-list-area2 > li + li {
+							margin-top: 15px;
+						}
+						.evolution-list-area2 ul {
+							flex-grow: 1;
+						}
+						.evolution-list-area2 ul li {
+							padding: 0 10px;
+						}
+						.evolution-list-area2 ul li .tit {
+							font-size: 14px;
+							color: #777;
+						}
+						.evolution-list-area2 .tit {
+							width: 140px;
+							line-height: 34px;
+							flex-shrink: 0;
+						}
+						.evolution-list-area2 > li > .tit {
+							padding: 0px 8px;
+							background-color: #f1f1f1;
+							text-align: center;
+							border-radius: 20px;
+							margin-right: 30px;
+						}
+					</style>
+					<ul class="evolution-list-area2">
+						<li>
+							<p class="tit">진화트리 1</p>
+							<ul>
+								<li>
+									<p class="tit">유년기</p>
+									<p>토코몬</p>
+								</li>
+								<li>
+									<p class="tit">성장기</p>
+									<p>파닥몬</p>
+								</li>
+								<li>
+									<p class="tit">성숙기</p>
+									<p>엔젤몬</p>
+								</li>
+								<li>
+									<p class="tit">완전체</p>
+									<p>홀리엔젤몬</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<p class="tit">진화트리 2</p>
+							<ul>
+								<li>
+									<p class="tit">유년기</p>
+									<p>토코몬</p>
+								</li>
+								<li>
+									<p class="tit">성장기</p>
+									<p>피코데블몬</p>
+								</li>
+								<li>
+									<p class="tit">성숙기</p>
+									<p>데블몬</p>
+								</li>
+								<li>
+									<p class="tit">완전체</p>
+									<p>묘티스몬</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<p class="tit">진화트리 3</p>
+							<ul>
+								<li>
+									<p class="tit">유년기</p>
+									<p>유라몬</p>
+								</li>
+								<li>
+									<p class="tit">성장기</p>
+									<p>텐타몬</p>
+								</li>
+								<li>
+									<p class="tit">성숙기</p>
+									<p>캅테리몬</p>
+								</li>
+								<li>
+									<p class="tit">완전체</p>
+									<p>묘티스몬</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</article>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
