@@ -118,7 +118,7 @@
     }
 
     .section-area {
-        max-width: 800px;
+        width: 800px;
         width: 100%;
         flex-grow: 1;
         padding: 30px;
